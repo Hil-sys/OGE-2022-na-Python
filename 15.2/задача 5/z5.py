@@ -7,7 +7,6 @@ for i in range(n):
     s.append(a)
     if a <= 30:
         k+=1
-s.sort()
 sm = min(s)
 sx = max(s)
 r = sx - sm
