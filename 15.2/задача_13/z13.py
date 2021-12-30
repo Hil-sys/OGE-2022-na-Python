@@ -1,7 +1,6 @@
 s = []
 k = 0
 sr = 0
-b = 1
 #t = '{:.' + str(b) + 'f}'   так тоже можно, будет надежней, но сложнее запомнить. print(t.format(sr))
 while True:
     a = int(input())
