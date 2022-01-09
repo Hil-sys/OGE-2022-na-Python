@@ -4,7 +4,7 @@ while True:
     a = int(input())
     if a == 0:
         break
-    if (9 < abs(a)) and (abs(a) < 100):
+    if (9 < a) and (a < 100):
         s.append(a)
 if len(s) == 0:
     print('NO')
